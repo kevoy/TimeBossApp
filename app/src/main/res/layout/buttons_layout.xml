@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    >
+
+    <Button
+        android:id="@+id/new_task_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="+ Add New Task"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:background="#ff6cabff"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+
+        />
+    <Button
+        android:id="@+id/new_activity_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="+ Add New Activity"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:background="#ff6cabff"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+</LinearLayout>

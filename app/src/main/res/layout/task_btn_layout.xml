@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="horizontal"
+android:layout_width="fill_parent"
+android:layout_height="50dp"
+android:id="@+id/tst"
+android:background="@drawable/task_list"
+    >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:text="12:59 A.M\n12:59 P.M"
+    android:id="@+id/task_btn_time"
+    android:textSize="20sp"
+    android:gravity="center_vertical"
+    android:width="100dp" />
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:paddingLeft="10dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task Name One"
+        android:id="@+id/task_btn_name"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ongoing"
+
+        android:textSize="15sp" />
+</LinearLayout>
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:text=">"
+
+        android:textSize="30sp"
+        android:typeface="serif"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_gravity="center_vertical" />
+</LinearLayout>
